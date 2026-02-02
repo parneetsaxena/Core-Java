@@ -1,4 +1,4 @@
-package College_Programs;
+package PracticePrograms;
 
 public class File {
     public static void main(String[] args) {

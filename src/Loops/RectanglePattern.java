@@ -1,4 +1,4 @@
-package Basics;
+package Loops;
 import java.util.Scanner;
 public class RectanglePattern {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class RectanglePattern {
         char ch = '*';
         for(int i = 1;i<=x;i++){
             for(int j = 1;j<=y;j++){
-                System.out.print("*");
+                System.out.print(ch);
             }
             System.out.println();
         }

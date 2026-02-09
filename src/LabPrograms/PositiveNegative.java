@@ -1,4 +1,4 @@
-package College_Programs;
+package LabPrograms;
 import java.util.Scanner;
 public class PositiveNegative {
     public static void main(String[] args) {

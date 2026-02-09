@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 public class HorizontalStars {
     public static void main(String[] args) {

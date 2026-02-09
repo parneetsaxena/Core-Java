@@ -1,4 +1,4 @@
-package Loops;
+package loops;
 
 public class Diamond {
     public static void main(String[] args) {

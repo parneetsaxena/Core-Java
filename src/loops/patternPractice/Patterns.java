@@ -57,16 +57,63 @@ public class Patterns {
         invertedPyramid(rows);
         pyramid(rows);
     }
+    static void hollowRectangle(int rows,int columns){
+        for(int i = 1;i<=rows;i++){
+            for(int j = 1;j<=columns;j++){
+                if(j==1||i==1||i==rows||j==rows){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    static void hollowTriangle(int rows){
+        for(int i = 1;i<=rows;i++){
+            for(int j = 1;j<=i;j++) {
+                if (j == 1 || i == rows||j==i) {
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    static void hollowPyramid(int rows){
+        for(int i = 1;i<=rows;i++){
+            // for spacing
+            for(int j = 1;j<=rows-i;j++){
+                System.out.print(" ");
+            }
+            // for stars
+            for(int k = 1;k<=i;k++){
+                if(i==rows||k==1||k==i) {
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
-        rightAngleTriangle(5);
-        invertedRightAngleTriangle(5);
+//        rightAngleTriangle(5);
+//        invertedRightAngleTriangle(5);
+//        System.out.println();
+//        pyramid(5);
+//        invertedPyramid(5);
+//        System.out.println();
+//        diamond(10);
+//        System.out.println();
+//        hourglass(10);
+        hollowRectangle(5,5);
         System.out.println();
-        pyramid(5);
-        invertedPyramid(5);
+        hollowTriangle(7);
         System.out.println();
-        diamond(10);
+        hollowPyramid(5);
         System.out.println();
-        hourglass(10);
     }
 }

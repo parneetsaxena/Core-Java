@@ -30,8 +30,8 @@ public class Circle {
         System.out.println(c1.area());
         System.out.println(c1.circumference());
         System.out.println(c1.diameter());
-        for(int i = 0;i<args.length;i++){
-            System.out.print(args[i]+ " ");
+        for (String arg : args) {
+            System.out.print(arg + " ");
             System.out.println();
         }
         System.exit(0);

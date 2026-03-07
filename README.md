@@ -6,7 +6,7 @@ This is my journey of learning Java from the basics to advanced concepts while a
 - `basics/` → Syntax, variables, loops, arrays, etc.
 - `oops/` → Classes, objects, inheritance, polymorphism.
 - `collections/` → ArrayList, HashMap, Set, Queue.
-- `dsa/` → Algorithms and data structures (arrays, linked lists, stacks, trees).
+-  `loops/` → Star Patterns
 - `advanced/` → File handling, multithreading, generics, serialization.
 
 ## 🛠 How to Run

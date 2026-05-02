@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.classes;
 
 public class Sum {
     static int add(int a,int b){

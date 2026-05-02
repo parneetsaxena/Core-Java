@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.classes;
 
 public class PassByValue {
     public static void decrease(int n1,int n2){

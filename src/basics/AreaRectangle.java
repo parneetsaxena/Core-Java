@@ -1,4 +1,4 @@
-package problems;
+package basics;
 
 public class AreaRectangle {
     public static void main(String[] args) {

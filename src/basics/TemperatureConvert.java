@@ -1,6 +1,6 @@
-package problems;
+package basics;
 import java.util.Scanner;
-public class CelsiusToFahrenheit {
+public class TemperatureConvert {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the temperature in degree Celsius: ");

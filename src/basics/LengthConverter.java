@@ -1,4 +1,4 @@
-package problems;
+package basics;
 import java.util.Scanner;
 public class LengthConverter {
     public static void main(String[] args) {

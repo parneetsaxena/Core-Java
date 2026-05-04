@@ -1,6 +1,6 @@
-package problems;
+package basics;
 
-public class CircumferenceCircle {
+public class CircleCircumference {
     public static void main(String[] args) {
         int radius = 15;
         double pi = Math.PI;

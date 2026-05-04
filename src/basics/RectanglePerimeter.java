@@ -1,6 +1,6 @@
-package problems;
+package basics;
 
-public class PerimeterRectangle {
+public class RectanglePerimeter {
     public static void main(String[] args) {
         int length = 10;
         int width = 2;

@@ -1,4 +1,4 @@
-package loops;
+package loops.patternPractice;
 
 public class HollowNumericalTriangle {
     public static void main(String[] args) {

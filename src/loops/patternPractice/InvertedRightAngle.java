@@ -1,4 +1,4 @@
-package loops;
+package loops.patternPractice;
 
 public class InvertedRightAngle {
     public static void main(String[] args) {

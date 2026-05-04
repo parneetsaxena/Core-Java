@@ -1,4 +1,4 @@
-package loops;
+package loops.patternPractice;
 import java.util.Scanner;
 public class BorderlessRectangle {
     public static void main(String[] args) {

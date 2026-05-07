@@ -1,4 +1,4 @@
-package basics;
+package basics.problems;
 
 public class CircleCircumference {
     public static void main(String[] args) {

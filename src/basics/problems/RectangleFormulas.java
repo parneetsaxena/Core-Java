@@ -1,4 +1,4 @@
-package basics;
+package basics.problems;
 import java.util.Scanner;
 public class RectangleFormulas {
     public static void main(String[] args){

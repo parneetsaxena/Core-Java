@@ -1,4 +1,4 @@
-package problems;
+package basics.problems;
 import java.util.Random;
 import java.util.Scanner;
 public class Dice {

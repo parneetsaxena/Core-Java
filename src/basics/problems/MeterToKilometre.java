@@ -1,4 +1,4 @@
-package basics;
+package basics.problems;
 import java.util.Scanner;
 public class MeterToKilometre {
     public static void main(String[] args) {

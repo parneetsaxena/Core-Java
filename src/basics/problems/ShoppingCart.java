@@ -1,4 +1,4 @@
-package problems;
+package basics.problems;
 import java.util.Scanner;
 public class ShoppingCart {
     public static void main(String[] args) {

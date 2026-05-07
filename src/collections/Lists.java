@@ -7,10 +7,7 @@
  */
 package collections;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 public class Lists {
     public static void main(String[] args) {
@@ -29,10 +26,20 @@ public class Lists {
         ll.add(9.8);
         System.out.println(ll);
 
+        // Vector
         List<String> names = new Vector<>();
         names.add("Seth");
         names.add("Brock");
         names.add("John");
         System.out.println(names);
+
+        // Iterators are used to fetch values
+        Iterator<Integer> i = al.iterator();
+        System.out.println(i.next());
+
+        // Enhanced for loop to fetch values
+        for( int m :al){
+            System.out.println(m);
+        }
     }
 }

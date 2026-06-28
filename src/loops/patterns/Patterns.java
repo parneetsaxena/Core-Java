@@ -1,4 +1,4 @@
-package loops.patternPractice;
+package loops.patterns;
 
 // 2*i = Prints normal right angle triangle
 // rows - i = Prints inverted right angle triangle

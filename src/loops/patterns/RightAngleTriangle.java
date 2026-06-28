@@ -1,4 +1,4 @@
-package loops.patternPractice;
+package loops.patterns;
 
 public class RightAngleTriangle {
     public static void main(String[] args) {

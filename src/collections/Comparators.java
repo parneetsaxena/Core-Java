@@ -1,5 +1,5 @@
 /*
-Comparator is used to compare between two values.
+Comparator is an interface used to compare between two values.
 It is an interface and cannot be instantiated directly.
 It allows custom sorting techniques. The user can manipulate the sorting process according to the needs
  */
@@ -18,10 +18,10 @@ public class Comparators implements Comparator<Integer> {
     @Override
     public int compare(Integer o1, Integer o2) {
         if(o1>o2){
-            return 1;
+            return -1;
         }
 
-        return -1;
+        return 1;
     }
 
     public static void main(String[] args) {

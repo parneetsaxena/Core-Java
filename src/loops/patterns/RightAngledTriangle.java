@@ -1,4 +1,4 @@
-package loops.patternPractice;
+package loops.patterns;
 import java.util.Scanner;
 public class RightAngledTriangle {
     public static void main(String[] args) {

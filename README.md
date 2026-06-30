@@ -20,14 +20,12 @@ The repository is organized based on topics and practice areas.
 - "advanced/" → File handling, multithreading, generics, serialization
 - "basics/" → Syntax, variables, problem solving
 - "collections/" → ArrayList, HashMap, Set, Queue
-- "extras/" → Lab Programs, Lab File
 - "loops/" → Pattern problems (star patterns, etc.)
 - "OOPs/" → Classes, objects, inheritance, polymorphism, abstraction, encapsulation
-- "problems/" → Practice problems
 
 
 
-*Core-Java/ │ ├── advanced/ ├── basics/ ├── collections/ ├── extras/ ├── loops/ ├── OOPs/ ├── problems/  └── other/*
+*Core-Java/ │ ├── advanced/ ├── basics/ ├── collections/├── loops/ ├── OOPs/*
 
 (Structure will evolve as more topics are added)
 

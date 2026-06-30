@@ -17,7 +17,7 @@ The repository is organized based on topics and practice areas.
 
 ## 📂 Folder Structure
 
-- "advanced/" → File handling, multithreading, generics, serialization
+- "advanced/" → File handling, multithreading, serialization, annotations
 - "basics/" → Syntax, variables, problem solving
 - "collections/" → ArrayList, HashMap, Set, Queue
 - "loops/" → Pattern problems (star patterns, etc.)

@@ -17,11 +17,11 @@ The repository is organized based on topics and practice areas.
 
 ## 📂 Folder Structure
 
-- "advanced/" → File handling, multithreading, serialization, annotations
-- "basics/" → Syntax, variables, problem solving
-- "collections/" → ArrayList, HashMap, Set, Queue, Generics
-- "loops/" → Pattern problems (star patterns, etc.)
-- "OOPs/" → Classes, objects, inheritance, polymorphism, abstraction, encapsulation
+- "advanced/" → File Handling, Multithreading, Serialization, Annotations
+- "basics/" → Syntax, Variables, Problem Solving
+- "collections/" → List, Map, Set, Queue, Generics, Comparator, Comparable
+- "loops/" → Pattern problems (Star Patterns, etc.)
+- "OOPs/" → Classes, Objects, Inheritance, Polymorphism, Abstraction, Encapsulation
 
 
 

@@ -19,7 +19,7 @@ The repository is organized based on topics and practice areas.
 
 - "advanced/" → File handling, multithreading, serialization, annotations
 - "basics/" → Syntax, variables, problem solving
-- "collections/" → ArrayList, HashMap, Set, Queue
+- "collections/" → ArrayList, HashMap, Set, Queue, Generics
 - "loops/" → Pattern problems (star patterns, etc.)
 - "OOPs/" → Classes, objects, inheritance, polymorphism, abstraction, encapsulation
 

@@ -1,0 +1,17 @@
+package foundations;
+import java.util.Scanner;
+public class StringDemo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String string1 = scanner.nextLine();
+        System.out.print("\nEnter second string: ");
+        String string2 = scanner.nextLine();
+        System.out.println("The length of string a: "+string1.length());
+        System.out.println("The length of string b: "+string2.length());
+        System.out.println("The concatenation is: "+string1.concat(string2));
+        System.out.println("First string to uppercase: "+string1.toUpperCase());
+    }
+
+}
+

@@ -11,6 +11,17 @@ public class StringDemo {
         System.out.println("The length of string b: "+string2.length());
         System.out.println("The concatenation is: "+string1.concat(string2));
         System.out.println("First string to uppercase: "+string1.toUpperCase());
+
+
+
+
+        // Strings can also be split to get different values from files like CSV
+
+        String str = "John,Brock,Roman,Seth";
+        String names[] = str.split(",");
+        for(String s: names){
+            System.out.println(s);
+        }
     }
 
 }

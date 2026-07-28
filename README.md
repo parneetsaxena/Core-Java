@@ -17,14 +17,14 @@ The repository is organized based on topics and practice areas.
 
 ## 📂 Folder Structure
 
-- "backend/" → File Handling, Multithreading, Serialization, Annotations
+- "advanced/" → File Handling, Multithreading, Serialization, Annotations
 - "foundations/" → Syntax, Variables, Loops, Pattern Problems (Star Patterns, etc.)
 - "collections/" → List, Map, Set, Queue, Generics, Comparator, Comparable
 - "oop/" → Classes, Objects, Inheritance, Polymorphism, Abstraction, Encapsulation
 
 
 
-*Core-Java/ │ ├── backend/ ├── foundations/ ├── collections/ ├── oop/*
+*Core-Java/ │ ├── advanced/ ├── foundations/ ├── collections/ ├── oop/*
 
 (Structure will evolve as more topics are added)
 
@@ -36,7 +36,7 @@ The repository is organized based on topics and practice areas.
 
 ## Purpose
 
-This repository is part of my learning journey in Java and backend development.
+This repository is part of my learning journey in Java and advanced development.
 
 The focus is on:
 

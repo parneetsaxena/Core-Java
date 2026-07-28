@@ -5,7 +5,7 @@ Annotations with single variable is known as single value annotation.
 
  */
 
-package backend.annotations;
+package advanced.annotations;
 
 
 import java.lang.annotation.*;

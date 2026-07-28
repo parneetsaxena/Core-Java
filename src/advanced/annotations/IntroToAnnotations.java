@@ -6,7 +6,7 @@ Example - @Override annotation indicates that the method with this annotation is
 @Deprecated is used to indicate that it should not be used even though it is available
  */
 
-package backend.annotations;
+package advanced.annotations;
 
 public class IntroToAnnotations {
     public static void main(String[] args) {

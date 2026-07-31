@@ -1,6 +1,8 @@
+// This program will print a numerical triangle
+
 package foundations.loops.patterns;
 
-public class NumericalPyramid {
+public class NumericalPattern3 {
     public static void main(String[] args) {
         for(int i = 1;i<=5;i++){
             // To print out the spaces

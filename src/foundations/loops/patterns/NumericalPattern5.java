@@ -1,6 +1,6 @@
 package foundations.loops.patterns;
 
-public class HollowNumericalTriangle {
+public class NumericalPattern5 {
     public static void main(String[] args) {
         for(int i =1;i<=5;i++){
             // To print out the spaces

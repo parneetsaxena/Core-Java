@@ -8,7 +8,7 @@ Example - @Override annotation indicates that the method with this annotation is
 
 package advanced.annotations;
 
-public class IntroToAnnotations {
+public class Annotations1 {
     public static void main(String[] args) {
         AnnotB obj = new AnnotB();
         obj.test();

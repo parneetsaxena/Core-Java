@@ -8,10 +8,10 @@ Interface is of three types
 
 package oop.abstraction;
 
-public class Main {
+public class Abstraction1 {
     public static void main(String[] args) {
-        Vehicle car = new Car(90);
-        Vehicle bike = new Bike(75);
+        Vehicle car = new Abstraction3(90);
+        Vehicle bike = new Abstraction2(75);
         car.start();
         bike.start();
         car.stop();

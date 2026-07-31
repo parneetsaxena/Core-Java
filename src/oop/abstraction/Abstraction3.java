@@ -1,32 +1,36 @@
 package oop.abstraction;
 
-public class Bike implements Vehicle{
+public class Abstraction3 implements Vehicle {
     private final int speed;
 
-    Bike(int speed){
+    Abstraction3(int speed){
         this.speed = speed;
     }
-
     public void start()
     {
-        System.out.println("The bike is now running");
+        System.out.println("The car is now running");
 
     }
+
     public void stop()
     {
-        System.out.println("The bike is stopped now");
+        System.out.println("The car is now stopped");
+
     }
     public String getFuelType()
     {
-        return "Petrol";
+        return "Diesel";
+
     }
+
     public void honk()
     {
-        System.out.println("Beeep....Beeeeeeeeeeeeeeep...beepp");
+        System.out.println("Piiiiiiiiiiiiiiii... pi.pi.piipii");
+
     }
+
     public int getSpeed()
     {
         return speed;
     }
-
 }

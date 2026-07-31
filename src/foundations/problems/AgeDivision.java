@@ -1,4 +1,4 @@
-package foundations;
+package foundations.problems;
 import java.util.Scanner;
 public class AgeDivision {
     public static void main(String[] args) {

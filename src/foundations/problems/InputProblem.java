@@ -1,4 +1,4 @@
-package foundations;
+package foundations.problems;
 import java.util.Scanner;
 public class InputProblem {
     public static void main(String[] args) {

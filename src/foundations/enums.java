@@ -31,7 +31,7 @@ enum Laptop{
 public class enums {
     public static void main(String[] args) {
         Laptop l = Laptop.HP;
-        System.out.println(Laptop.HP.graphics);
+        System.out.println(l.graphics);
         Laptop[] lap = Laptop.values();
         for(Laptop laps:lap){
             System.out.println(laps);

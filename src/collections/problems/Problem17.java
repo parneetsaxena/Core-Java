@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class RollNumberSorting {
+public class Problem17 {
     public static void main(String[] args) {
         List<Student> stud = new ArrayList<>(Arrays.asList(
                 new Student("Rahul",3),

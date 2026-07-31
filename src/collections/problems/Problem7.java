@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class FrequencyCounter {
+public class Problem7 {
     public static void main(String[] args) {
         String fruits[] = {"Apple","Mango","Apple","Mango","Banana","Apple"};
         Map<String,Integer> counter = new HashMap<>();

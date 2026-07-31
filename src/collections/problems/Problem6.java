@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class EmpSortViaComparable {
+public class Problem6 {
     public static void main(String[] args) {
         List<Employees> emp = new ArrayList<>(Arrays.asList(
                 new Employees("Aman",50000),

@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class BankAccountSort {
+public class Problem1 {
     public static void main(String[] args) {
         List<BankAccount> bank = new ArrayList<>(Arrays.asList(
                 new BankAccount("Raj",50000,"A103"),

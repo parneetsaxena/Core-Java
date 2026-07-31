@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class ProdSort {
+public class Problem14 {
     public static void main(String[] args) {
         List<Prod> prods = new ArrayList<>(Arrays.asList(
                 new Prod("Laptop",70000,5),

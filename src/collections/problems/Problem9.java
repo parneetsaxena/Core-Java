@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class MoviesSorting {
+public class Problem9 {
     public static void main(String[] args) {
         List<Movie> movies = new ArrayList<>(Arrays.asList(
                 new Movie("Interstellar","Sci-Fi",2014,8.8),

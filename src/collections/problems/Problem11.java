@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.*;
 import java.util.Comparator;
 
-public class NumberSorting {
+public class Problem11 {
 
 
 

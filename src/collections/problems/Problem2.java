@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class BookSorting {
+public class Problem2 {
     public static void main(String[] args) {
         List<Book> books = new ArrayList<>(Arrays.asList(
                 new Book("Harry Potter",500),

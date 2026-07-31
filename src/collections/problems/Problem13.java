@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class Phonebook {
+public class Problem13 {
     public static void main(String[] args) {
         Map<String,Integer> contact = new HashMap<>();
         contact.put("Shyam",78910);

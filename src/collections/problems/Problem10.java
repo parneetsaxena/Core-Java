@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class MovieWatchlist {
+public class Problem10 {
     static void addMovie(List<String> arr, String name){
       arr.add(name);
     }

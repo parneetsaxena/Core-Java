@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class DuplicateNamesChecker {
+public class Problem4 {
     public static void main(String[] args) {
         Set<String> names = new HashSet<>();
         names.add("Ravi");

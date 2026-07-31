@@ -1,7 +1,7 @@
 package collections.problems;
 
 import java.util.*;
-public class StudentMarksSystem {
+public class Problem18 {
     static int getMax(List<Integer> ls) {
         int max = ls.get(0);
         for (int i = 0;i<ls.size();i++) {

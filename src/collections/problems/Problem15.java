@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class ProductRanking {
+public class Problem15 {
     public static void main(String[] args) {
         List<Products> prods = new ArrayList<>(Arrays.asList(
                 new Products("Laptop","Electronics",4.5,1200,70000),

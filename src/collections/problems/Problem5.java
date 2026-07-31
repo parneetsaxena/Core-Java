@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class EmployeeSorting {
+public class Problem5 {
     public static void main(String[] args) {
         List<Employee> emp = new ArrayList<>(Arrays.asList(new Employee("Rahul","IT",70000)
                 ,new Employee("Aman","HR",50000),

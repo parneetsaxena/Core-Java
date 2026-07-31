@@ -2,7 +2,7 @@ package collections.problems;
 
 import java.util.*;
 
-public class CharacterSorting {
+public class Problem3 {
     public static void main(String[] args) {
         List<Character> chars = new ArrayList<>(Arrays.asList('b','g','a','h','l','q','t','s','c','x','e'));
         Collections.sort(chars,new Comparator<Character>(){

@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class ProductSorting {
+public class Problem16 {
     public static void main(String[] args) {
         List<Product> prods = new ArrayList<>();
         prods.add(new Product("Dumbbells",400));

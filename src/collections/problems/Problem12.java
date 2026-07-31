@@ -1,6 +1,6 @@
 package collections.problems;
 import java.util.*;
-public class ObjectSorting {
+public class Problem12 {
     public static void main(String[] args) {
       List<Person> pers = new ArrayList<Person>();
       pers.add(new Person("Rohan",13));

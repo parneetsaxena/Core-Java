@@ -13,7 +13,7 @@ package collections;
 import java.util.*;
 
 
-public class Main {
+public class Collection1 {
     public static void main(String[] args) {
         // This is using the Collection interface and creating an instantiation of the ArrayList class. The type of this variable is object.
         Collection list = new ArrayList(); // List Collection

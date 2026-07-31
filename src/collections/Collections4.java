@@ -3,7 +3,7 @@
 package collections;
 import java.util.*;
 
-public class Sets {
+public class Collections4 {
     public static void main(String[] args) {
         // HashSet
         Set<Integer> age = new HashSet<>();

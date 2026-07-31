@@ -23,7 +23,7 @@ package collections;
 
 import java.util.*;
 
-public class Lists {
+public class Collections2 {
     public static void main(String[] args) {
 
         // ArrayList

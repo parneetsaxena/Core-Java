@@ -2,7 +2,7 @@ package collections;
 
 import java.util.*;
 
-public class Collections3 {
+public class Maps {
     public static void main(String[] args) {
 
         // HashMap

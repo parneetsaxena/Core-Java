@@ -22,7 +22,7 @@ package collections;
 
 import java.util.Comparator;
 import java.util.*;
-public class Collections6 implements Comparator<Integer> {
+public class ComparatorIntro implements Comparator<Integer> {
 
     @Override
     public int compare(Integer o1, Integer o2) {
@@ -41,7 +41,7 @@ public class Collections6 implements Comparator<Integer> {
         al.add(51);
 
 
-        Comparator<Integer> comp = new Collections6();
+        Comparator<Integer> comp = new ComparatorIntro();
         al.sort(comp);
 
         for(int i:al){

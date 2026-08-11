@@ -3,28 +3,28 @@ import java.util.*;
 public class Problem17 {
     public static void main(String[] args) {
         List<Student> stud = new ArrayList<>(Arrays.asList(
-                new Student("Rahul",3),
-                new Student("Aman",1),
-                new Student("Karan",2)
+                new Student("Rahul",65),
+                new Student("Aman",46),
+                new Student("Karan",75)
         ));
         Collections.sort(stud);
         for(Student s:stud){
-            System.out.println(s.name + " "+s.rollNumber);
+            System.out.println(s.name + " "+s.marks);
         }
     }
 }
 
 class Student implements Comparable<Student>{
     String name;
-    int rollNumber;
-    Student(String name,int rollNumber){
+    int marks;
+    Student(String name,int marks){
         this.name=name;
-        this.rollNumber=rollNumber;
+        this.marks=marks;
     }
     public int compareTo(Student s){
-        if(this.rollNumber>s.rollNumber){
-            return 1;
+        if(this.marks>s.marks){
+            return -1;
         }
-        return -1;
+        return 1;
     }
 }

@@ -17,7 +17,7 @@ Method to work with comparable
 
 package collections;
 import java.util.*;
-public class Collections5 {
+public class ComparableIntro {
 
     public static void main(String[] args) {
         List<Students> stud = new ArrayList<>();

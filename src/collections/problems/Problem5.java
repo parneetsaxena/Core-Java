@@ -7,7 +7,7 @@ public class Problem5 {
                 new Employee("Karan","IT",60000),
                 new Employee("Rahul","HR",70000),
                 new Employee("Vikas","IT",70000)));
-        Collections.sort(emp,new Comparator<Employee>(){
+        Collections.sort(emp,new Comparator<>(){
             public int compare(Employee e1,Employee e2) {
                 if(e1.salary!=e2.salary){
                     if(e1.salary>e2.salary){

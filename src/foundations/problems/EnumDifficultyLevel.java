@@ -7,7 +7,7 @@ enum Difficulty{
         timeLimit = limit;
     }
 }
-public class DifficultyLevel {
+public class EnumDifficultyLevel {
     public static void main(String[] args) {
         Difficulty dif = Difficulty.HARD;
         System.out.println("Difficulty Level:" + dif);

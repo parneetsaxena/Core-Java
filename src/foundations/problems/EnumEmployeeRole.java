@@ -2,7 +2,7 @@ package foundations.problems;
  interface authorization{
     public String getPermissions();
 }
-public class EmployeeRole {
+public class EnumEmployeeRole {
     enum Role implements authorization{
         ADMIN{
             @Override

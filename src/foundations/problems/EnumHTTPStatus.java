@@ -1,7 +1,7 @@
 package foundations.problems;
 
 
-public class HTTPStatus {
+public class EnumHTTPStatus {
     enum Status{
         OK(200, "OK"),
         NOT_FOUND(404,"Not Found"),

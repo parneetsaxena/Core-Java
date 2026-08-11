@@ -1,7 +1,7 @@
 package foundations.problems;
 
 
-public class PizzaSize {
+public class EnumPizzaSize {
     enum Size{
         SMALL(199),
         MEDIUM(399),

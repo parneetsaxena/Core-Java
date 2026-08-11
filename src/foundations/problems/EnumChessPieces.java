@@ -1,6 +1,6 @@
 package foundations.problems;
 
-public class ChessPieces {
+public class EnumChessPieces {
     enum Pieces{
         KING(0,"One square in any direction"),
         QUEEN(9,"Any number of squares horizontally,diagonally and vertically"),

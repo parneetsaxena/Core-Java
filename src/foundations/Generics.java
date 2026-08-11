@@ -1,4 +1,4 @@
-package collections;
+package foundations;
 
 import java.util.HashSet;
 
@@ -6,7 +6,6 @@ public class Generics<T> {
     T data ;
 
     public void display(){
-        this.data = data;
         System.out.println(data.getClass().getName());
     }
     public static void main(String[] args) {
@@ -16,12 +15,12 @@ public class Generics<T> {
 
     }
 }
-class Test<T extends Number>{
+class Test1<T extends Number>{
     public void check(HashSet<? extends T> obj){
         System.out.println("You are working with "+ obj.getClass().getName());
     }
     public static void main(String[] args) {
-        Test<Long> testing = new Test<>();
+        Test1<Long> testing = new Test1<>();
         testing.check(new HashSet<>() );
 
     }

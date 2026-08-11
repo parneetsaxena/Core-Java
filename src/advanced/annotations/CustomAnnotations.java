@@ -35,7 +35,7 @@ class Passouts extends Student{
         super(name, year);
     }
 }
-public class Annotations2 {
+public class CustomAnnotations {
     public static void main(String[] args) {
         Student s = new Student("Parneet",4);
         Class c = s.getClass();

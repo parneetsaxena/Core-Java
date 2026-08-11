@@ -2,7 +2,7 @@ package advanced.exceptionhandling.problems;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Problem9 {
+public class ATMMenu {
 
      int balance = 2000;
 
@@ -33,7 +33,7 @@ public class Problem9 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        Problem9 atm = new Problem9();
+        ATMMenu atm = new ATMMenu();
         int choice = 0;
         atmloop:
         while (true) {

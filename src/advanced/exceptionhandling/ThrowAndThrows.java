@@ -10,7 +10,7 @@ package advanced.exceptionhandling;
 
 import java.util.Scanner;
 
-public class Exception3 {
+public class ThrowAndThrows {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a,b = 0;

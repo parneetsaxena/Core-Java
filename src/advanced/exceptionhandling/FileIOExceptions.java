@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Exception4 {
+public class FileIOExceptions {
     public static void readFile() throws FileNotFoundException {
         FileReader reader = new FileReader("data.txt");
     }

@@ -1,6 +1,6 @@
 package advanced.exceptionhandling.problems;
 
-public class Problem7 {
+public class ATMProblem {
      int balance = 0;
 
      void deposit(int amount) throws IllegalArgumentException{
@@ -22,7 +22,7 @@ public class Problem7 {
     }
 
     public static void main(String[] args) {
-         Problem7 atm = new Problem7();
+         ATMProblem atm = new ATMProblem();
         try{
             atm.deposit(300);
 

@@ -1,6 +1,6 @@
 package advanced.exceptionhandling.problems;
 
-public class Problem1 {
+public class DivideByZero {
     public static void main(String[] args) {
         int a = 10;
         int b = 0;

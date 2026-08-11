@@ -1,6 +1,6 @@
 package advanced.exceptionhandling.problems;
 
-public class Problem5 {
+public class ThrowsKeyword {
     static int readAge(int age) throws Exception{
         if(age<0){
             throw new Exception("Age cannot be negative");

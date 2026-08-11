@@ -1,6 +1,6 @@
 package advanced.exceptionhandling.problems;
 
-public class Problem6 {
+public class CustomExceptions {
     static int readAge(int age) throws InvalidAgeException{
         if(age<18){
             throw new InvalidAgeException("You are not eligible to vote.");

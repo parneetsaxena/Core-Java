@@ -12,7 +12,7 @@ Exceptions are of two types-
 
 package advanced.exceptionhandling;
 
-public class Exception1 {
+public class ExceptionIntro {
     public static void main(String[] args) {
         int a=4,b=9,c=0;
         try {

@@ -4,7 +4,7 @@ You can create custom exceptions in Java. It can follow any constraints that you
 
 package advanced.exceptionhandling;
 
-public class Exception5 {
+public class UserException {
     public static void main(String[] args) {
         int a = 9;
         try{

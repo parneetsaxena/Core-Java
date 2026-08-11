@@ -1,6 +1,6 @@
 package advanced.exceptionhandling.problems;
 
-public class Problem4 {
+public class ThrowKeyword {
     static void withdraw(double amount){
         double balance = 1000;
         if(amount<0){

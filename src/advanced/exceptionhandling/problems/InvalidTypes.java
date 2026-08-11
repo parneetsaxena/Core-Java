@@ -3,7 +3,7 @@ package advanced.exceptionhandling.problems;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Problem2 {
+public class InvalidTypes {
     public static void main(String[] args) {
         String[] names = {"Rohul","Amon","Rohon"};
         Scanner scanner = new Scanner(System.in);

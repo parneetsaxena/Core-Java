@@ -9,18 +9,32 @@
  */
 
 package advanced;
+import java.io.FileInputStream;
 import java.sql.*;
+import java.util.Properties;
 public class JDBC {
     public static void main(String[] args) throws Exception {
-        String url = "jdbc:postgresql://localhost:5432/bank_db";
-        String username = "postgres";
-        String password = "parneet";
+
+        Properties props = new Properties();
+        FileInputStream fis = new FileInputStream("db.properties");
+        props.load(fis);
+
+        String url = props.getProperty("db.url");
+        String username = props.getProperty("db.username");
+        String password = props.getProperty("db.password");
+
         String query = "SELECT * FROM customer";
+
         Class.forName("org.postgresql.Driver");
+
         Connection con = DriverManager.getConnection(url,username,password);
+
         Statement st = con.createStatement();
+
         ResultSet rs = st.executeQuery(query);
+
         rs.next();
+
         String data = rs.getString("first_name");
 
         System.out.println(data);
@@ -28,6 +42,6 @@ public class JDBC {
         con.close();
         st.close();
         rs.close();
-
+        fis.close();
     }
 }

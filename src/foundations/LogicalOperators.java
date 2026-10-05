@@ -1,6 +1,6 @@
 package foundations;
 
-public class Operators5 {
+public class LogicalOperators {
     public static void main(String[] args) {
         System.out.println((10==11) && (5>4));
         System.out.println((3>4) || (4==5));

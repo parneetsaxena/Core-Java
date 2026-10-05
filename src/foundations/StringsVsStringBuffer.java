@@ -18,7 +18,7 @@ equals() checks the values whereas == checks the reference.
 
 package foundations;
 
-public class String3 {
+public class StringsVsStringBuffer {
     public static void main(String[] args) {
         String s1 = "Hello";
         String s2 = "Hello";
@@ -29,8 +29,8 @@ public class String3 {
         System.out.println(s1.equals(s2));
 
 
-        StringBuffer sb = new StringBuffer("Hello");
-        StringBuffer sb1 = new StringBuffer("Hello");
+        StringBuffer sb = new StringBuffer();
+        StringBuffer sb1 = new StringBuffer();
         System.out.println(sb.equals(s1));
 
         String s = "  Hello     ";

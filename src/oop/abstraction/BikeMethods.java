@@ -1,9 +1,9 @@
 package oop.abstraction;
 
-public class Abstraction2 implements Vehicle{
+public class BikeMethods implements Vehicle{
     private final int speed;
 
-    Abstraction2(int speed){
+    BikeMethods(int speed){
         this.speed = speed;
     }
 

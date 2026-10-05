@@ -1,6 +1,6 @@
 package foundations;
 
-public class Operators2 {
+public class ArithmeticOperators2 {
     public static void main(String[] args){
         int a = 20, b = 10;
         System.out.println("The sum is: "+ (a+b));

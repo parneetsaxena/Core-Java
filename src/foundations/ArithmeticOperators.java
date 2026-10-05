@@ -1,6 +1,6 @@
 package foundations;
 
-public class Operators1 {
+public class ArithmeticOperators {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;

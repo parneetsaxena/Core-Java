@@ -1,6 +1,6 @@
 package foundations;
 
-public class Operators3 {
+public class AssignmentOperators {
     public static void main(String[] args) {
         int p = 10, q = 15;
         System.out.println(p=+q);

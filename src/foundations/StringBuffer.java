@@ -2,9 +2,9 @@
 // The main difference between StringBuffer and StringBuilder is that StringBuffer is thread-safe and therefore slower, while StringBuilder is not thread-safe.
 package foundations;
 
-public class String2 {
+public class StringBuffer {
     public static void main(String[] args) {
-        StringBuffer sb = new StringBuffer("Hello");
+        java.lang.StringBuffer sb = new java.lang.StringBuffer("Hello");
         sb.append(", World");
         System.out.println(sb);
     }

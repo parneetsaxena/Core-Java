@@ -24,3 +24,5 @@ replay_pid*
 
 /out
 /.idea
+
+db.properties
